@@ -1,0 +1,129 @@
+{
+    "Getting started": {
+        "Overview": "/",
+        "Quick Start": "/quick_start.html"
+    },
+    "Tutorials": {
+        "Overview": "/tutorial",
+        "": {
+            "Beginner": {
+                "Vision Tutorial": "/tutorial.vision",
+                "Text Tutorial": "/tutorial.text",
+                "Tabular Tutorial": "/tutorial.tabular",
+                "Collab Tutorial": "/tutorial.collab"
+            }
+        },
+        "empty1": {
+            "Intermediate": {
+                "DataBlock Tutorial": "/tutorial.datablock",
+                "Imagenette Tutorial": "/tutorial.imagenette",
+                "Medical Imaging Tutorial": "/tutorial.medical_imaging",
+                "Pets Tutorial": "/tutorial.pets",
+                "Transformers Tutorial": "/tutorial.transformers",
+                "Wikitext Tutorial": "/tutorial.wikitext"
+            }
+        },
+        "empty2": {
+            "Advanced": {
+                "Albumentations Tutorial": "/tutorial.albumentations",
+                "Siamese Tutorial": "/tutorial.siamese"
+            }
+        },
+        "empty3": {
+            "Migrating from Other Libraries": {
+                "Plain PyTorch": "/migrating_pytorch",
+                "Ignite": "/migrating_ignite",
+                "Lightning": "/migrating_lightning",
+                "Catalyst": "/migrating_catalyst"
+            }
+        }
+    },
+    "Training": {
+        "Training Loop": "/learner",
+        "Optimizer": "/optimizer",
+        "Metrics": "/metrics",
+        "Interpretation": "/interpret",
+        "Distributed": "/distributed",
+        "": {
+            "Callbacks": {
+                "Core": "/callback.core",
+                "Hooks": "/callback.hook",
+                "Progress": "/callback.hook",
+                "Schedulers": "/callback.schedule",
+                "CutMix": "/callback.cutmix",
+                "Data": "/callback.data",
+                "Mixed Precision": "/callback.fp16",
+                "MixUp": "/callback.mixup",
+                "Predictions": "/callback.preds",
+                "RNN": "/callback.rnn",
+                "Tracker": "/callback.tracker",
+                "Training": "/callback.training"
+            }
+        }
+    },
+    "Data": {
+        "Blocks": "/data.block",
+        "Core": "/data.core",
+        "DataLoader": "/data.load",
+        "External": "/data.external",
+        "Transforms": "/data.transforms"
+    },
+    "Core": {
+        "PyTorch Core": "/torch_core",
+        "Layers": "/layers",
+        "Loss Functions": "/losses"
+    },
+    
+    "Vision": {
+        "Core": "/vision.core",
+        "Data": "/vision.data",
+        "Data Augmentation": "/vision.augment",
+        "Learner": "/vision.learner",
+        "": {
+            "Models": {
+                "XResnet": "/vision.models.xresnet",
+                "Unet": "/vision.models.unet"
+            }
+        },        
+        "GAN": "/vision.gan",
+        "Utilities": "/vision.utils",
+        "Widgets": "/vision.widgets"
+    },
+    "Text": {
+        "Core": "/text.core",
+        "Data": "/text.data",
+        "Learner": "/text.learner",
+        "": {
+            "Models": {
+                "Core": "/text.models.core",
+                "AWD LSTM": "/text.models.awdlstm",
+                "QRNN": "/text.models.qrnn"
+            }
+        }
+    },
+    "Tabular": {
+        "Core": "/tabular.core",
+        "Data": "/tabular.data",
+        "Learner": "/tabular.learner",
+        "Model": "/tabular.model",
+        "Collab": "/collab"
+    },
+    "Medical": {
+        "Imagery": "/medical.imaging",
+        "Text": "/medical.text"
+    },
+    
+    "Integrations": {
+        "Neptune": "/callback.neptune",
+        "TensorBoard": "/callback.tensorboard",
+        "Weights & Biases": "/callback.wandb"
+    },
+    "fastai Development": {
+        "Developers Guide": "/dev-setup",
+        "Abbreviation Guide": "/dev/abbr",
+        "Style Guide": "/dev/style",
+        "GPU Notes": "/dev/gpu",
+        "Git Notes": "/dev/git",
+        "Notes": "/dev/develop"
+    }
+}
